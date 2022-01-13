@@ -31,7 +31,7 @@ object StreamContinu {
       .trigger(Trigger.ProcessingTime("10 seconds"))
       .start()
       .awaitTermination()
-    
+
   }
 
 }
