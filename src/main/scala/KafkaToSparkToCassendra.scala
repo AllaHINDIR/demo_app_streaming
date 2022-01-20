@@ -8,7 +8,7 @@ import com.datastax.oss.driver.api.core.uuid.Uuids
 import java.util.Date // com.datastax.cassandra:cassandra-driver-core:4.0.0
 
 
-object SparkToCassendra {
+object KafkaToSparkToCassendra {
 
   //create an object immutable
   case class overview(vol: String, registered_at: Double, total: Double , in_flight:Int)
